@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+:root {
+  --bg-primary: #121212;      /* Main background */
+  --bg-secondary: #202020;    /* Cards / Navbar */
+  --text-primary: #FFFFFF;    /* Titles */
+  --text-secondary: #B3B3B3;  /* Subtitles / Year */
+  --accent: #F5C518;          /* Buttons / Stars / Highlights */
+  --danger: #FF4444;          /* Remove button */
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background-color: var(--bg-primary);
+  color: #ffffff;
+  max-width: 100%;
+  height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  background-color: var(--bg-secondary);
+  padding: .7rem 1.7rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search {
+  background-color: var(--bg-secondary);
+  width: 90%;
+  padding: .6rem 1.2rem;
+  border-radius: 20rem;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+}
+
+.card {
+  background-color: var(--bg-secondary);
+}
